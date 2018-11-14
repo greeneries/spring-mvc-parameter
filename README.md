@@ -1,8 +1,9 @@
 # spring-mvc-parameter
 
 
-###### spring parameter test
+### spring parameter test
 
+##### 1. 
 ```
 	@RequestMapping(value = {"/example1", "/ex1"}, 
 			method = RequestMethod.GET, 

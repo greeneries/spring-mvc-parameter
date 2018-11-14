@@ -50,7 +50,8 @@
 ```
 
 ##### 4. 네번째 방법
-###### example2.jsp에서 submit 누르면 뜨는 페이지 
+###### http://localhost:8080/example4?id=test 
+###### http://localhost:8080/example4?id=test&a=21
 ```
 	@GetMapping("/example4") 
 	@ResponseBody
@@ -67,6 +68,7 @@
  ```
  
  ##### 5. 다섯번째 방법
+ ###### http://localhost:8080//example5/test/devices/1
  ```
  	@GetMapping("/example5/{id}/devices/{no}")
 	@ResponseBody

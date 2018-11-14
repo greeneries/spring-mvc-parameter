@@ -4,6 +4,7 @@
 ### spring parameter test
 
 ##### 1. 첫번째 방법
+###### http://localhost:8080/example1
 ```
 	@RequestMapping(value = {"/example1", "/ex1"}, 
 			method = RequestMethod.GET, 
@@ -16,6 +17,7 @@
 ```
 
 ##### 2. 두번째 방법
+###### http://localhost:8080/example2
 ```
 	@GetMapping("/example2")
 	public String example2(
@@ -30,6 +32,7 @@
 ```
 
 ##### 3. 세번째 방법
+###### example2.jsp에서 submit 누르면 뜨는 페이지 
 ```
 	@PostMapping("/example3")
 	public ModelAndView example3(
@@ -47,6 +50,7 @@
 ```
 
 ##### 4. 네번째 방법
+###### example2.jsp에서 submit 누르면 뜨는 페이지 
 ```
 	@GetMapping("/example4") 
 	@ResponseBody

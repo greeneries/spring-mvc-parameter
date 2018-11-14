@@ -70,7 +70,7 @@
  ##### 5. 다섯번째 방법
  ###### http://localhost:8080//example5/test/devices/1
  ```
- 	@GetMapping("/example5/{id}/devices/{no}")
+        @GetMapping("/example5/{id}/devices/{no}")
 	@ResponseBody
 	public String example5(
 			@PathVariable("id") String id,
